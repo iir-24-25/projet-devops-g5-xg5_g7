@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_medicament"
+        android:icon="@drawable/ic_medicament"
+        android:title="Médicaments"
+        />
+    <item
+        android:id="@+id/nav_dashboard"
+        android:icon="@drawable/dashboard_24px"
+        android:title="Dashboard" />
+    <item
+        android:id="@+id/nav_notifications"
+        android:icon="@drawable/notifications"
+        android:title="notifications"
+        />
+    <item
+        android:id="@+id/nav_logout"
+        android:icon="@drawable/logout"
+        android:title="Déconnexion" />
+
+</menu>

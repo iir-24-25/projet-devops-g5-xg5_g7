@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">pharmacie</string>
+    <string name="app_logo">Logo de l\'application</string>
+    <string name="login_title">Connexion</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Mot de passe</string>
+    <string name="login_button">Se connecter</string>
+    <string name="signup_prompt">Pas de compte ? S\'inscrire</string>
+    <string name="hint_code">Code médicament</string>
+    <string name="hint_libelle">Libellé</string>
+    <string name="hint_date_expiration">Date expiration</string>
+    <string name="hint_prix">Prix unitaire</string>
+    <string name="hint_stock">Stock minimum</string>
+    <string name="hint_famille">Famille médicament</string>
+
+    <!-- Boutons -->
+    <string name="btn_save">Enregistrer</string>
+    <string name="btn_select_image">Sélectionner une image</string>
+
+    <!-- Titres et descriptions -->
+    <string name="title_medicament_image">Image du médicament</string>
+    <string name="desc_medicament_image">Image illustrative du médicament</string>
+    <string name="title_medicament_list">title_medicament_list</string>
+    <string name="title_add_medicament">title_add_medicament</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+</resources>

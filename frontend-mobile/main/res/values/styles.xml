@@ -1,0 +1,16 @@
+<resources>
+    <!-- Base theme -->
+    <style name="AppTheme" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#328E6E</item>
+        <item name="colorPrimaryDark">#1A5D4A</item>
+        <item name="colorAccent">#4CAF93</item>
+    </style>
+
+    <!-- Toolbar style -->
+    <style name="ToolbarTitle" parent="TextAppearance.Material3.HeadlineSmall">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">0.02</item>
+    </style>
+</resources>
