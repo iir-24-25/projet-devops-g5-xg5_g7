@@ -1,0 +1,164 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f9;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 30%;
+    background-color: #328E6E; /* Vert spécifique pour la barre latérale */
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidebar .logo img {
+    max-width: 150px;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Auth Section */
+.auth-section {
+    width: 70%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.auth-box {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.auth-box h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #328E6E; /* Titre en vert */
+}
+
+.auth-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-group {
+    text-align: left;
+}
+
+.form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+    color: #333;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: border-color 0.3s ease;
+}
+
+.form-group input:focus {
+    border-color: #328E6E; /* Bordure verte au focus */
+    outline: none;
+    box-shadow: 0 0 5px rgba(50, 142, 110, 0.5); /* Ombre légère */
+}
+
+.btn {
+    padding: 10px;
+    background-color: #328E6E; /* Bouton vert */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #2b7a5f; /* Vert plus foncé au survol */
+}
+
+.forgot-password {
+    display: block;
+    margin-top: 10px;
+    color: #328E6E;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+.forgot-password:hover {
+    color: #2b7a5f; /* Vert plus foncé au survol */
+}
+
+.auth-box p {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #666;
+}
+
+.auth-box p a {
+    color: #328E6E;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.auth-box p a:hover {
+    color: #2b7a5f; /* Vert plus foncé au survol */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .auth-section {
+        width: 100%;
+        padding: 20px;
+    }
+}
